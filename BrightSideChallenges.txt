@@ -4,7 +4,7 @@ LINK = "1j_bD7OTkajEg0XcSkoKXBqVRuiEbzqGEkMM7yP4d2fk"
 COMMENT = /, INLINE
 // Settings
 UNIT = CM
-PAGE = 21, 29.7, PORTRAIT
+PAGE = 21, 29.7, PORTRAIT, HV
 BORDER = ROUNDED, #00000, 0.1
 MARGINS = 1, 1, 1, 1
 CARDSIZE = 7, 12
@@ -14,8 +14,8 @@ ICON = , C, Icons/raining.png
 ICON = , O, Icons/circle.png
 ICON = , S, Icons/sun.png
 ICON = , L, Icons/heart-wings.png
-HTMLIMAGE = , (immediate), Icons/raining.png, 0.5, 0.5, P
-HTMLIMAGE = , (constant), Icons/sun.png, 0.5, 0.5, P
+HTMLIMAGE = , (immediate), Icons/electric.png, 0.4, 0.4, PM
+HTMLIMAGE = , (constant), Icons/infinity.png, 0.4, 0.4, PM
 
 VISUAL=, 10, 10
 /Font(size)
@@ -24,10 +24,12 @@ TEXT="1-{(NAME)}",[NAME],{662/25}%,{164/75}%,{34597/525}%,{181/15}%,CENTER,WWCEN
 ELLIPSE=,{-1237/15}%,{26009/450}%,{3974/15}%,{20261/225}%,#000000,EMPTY,0.04
 /HTMLFont(size)
 HTMLFONT=Effect,Quicksand Medium,10,,#000000,CENTER
-HTMLTEXT="1-{(SETBACK)}",[SETBACK],{5522/525}%,{14624/225}%,{8278/105}%,{3853/300}%,#FFFFFF,0,B,100,Effect,Effect
-HTMLTEXT="1-{(LESSON)}",[LESSON],{5522/525}%,{1193/15}%,{1974/25}%,{6097/450}%,#FFFFFF,0,B,100,Effect,Effect
+HTMLTEXT="1-{(SETBACK)}",[SETBACK],{5522/525}%,{29693/450}%,{8278/105}%,{3853/300}%,#FFFFFF,0,B,100,Effect,Effect
+HTMLTEXT="1-{(LESSON)}",[LESSON],{5522/525}%,{12163/150}%,{1974/25}%,{6097/450}%,#FFFFFF,0,B,100,Effect,Effect
 /Font(size)
 FONT=Poppins,20,T,#000000
 TEXT="1-{(DIFFICULTY)}",[DIFFICULTY],{457/105}%,{501/100}%,{10538/525}%,{7621/900}%,CENTER,CENTER
 CIRCLE=,{804/175}%,{2413/900}%,{10093/525}%,{409/36}%,#000000,EMPTY,0.04
+ROUNDRECT=,{237/35}%,{19139/300}%,{45389/525}%,{2731/180}%,#1982C4,EMPTY,0.04
+ROUNDRECT=,{237/35}%,{71009/900}%,{45389/525}%,{2731/180}%,#FFCA3A,EMPTY,0.04
 ENDVISUAL
